@@ -58,4 +58,7 @@ ul li {
 
 .banner-section{
     background-image: url(./top-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
