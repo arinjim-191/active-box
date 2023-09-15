@@ -65,3 +65,9 @@ ul li {
     padding-top: 260px;
     padding-bottom: 160px;
 }
+.banner-section .container h1{
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
