@@ -18,3 +18,12 @@ ul li {
     margin: 0 auto;
 }
 /* -------body----- */
+
+.header-section{
+    height: 100px;
+
+}
+.header-section .container{
+    height: 100%;
+    background-color: aquamarine;
+}
