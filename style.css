@@ -30,16 +30,23 @@ ul li {
 }
 .header-section .container{
     height: 100%;
-    background-color: aquamarine;
+    background-color: rgb(44, 54, 50);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header-menu .menu {
    display: flex;
+
 }
 .header-menu .menu li a {
     font-family: Raleway;
     font-size: 13px;
     font-weight: 700;
     color: aliceblue;
+    padding: 0 30px;
+
+}
+.header-menu .menu li:last-child a{
+    padding-right: 0;
 }
