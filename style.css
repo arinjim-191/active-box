@@ -83,3 +83,14 @@ ul li {
     text-align: center;
 
 }
+.banner-section .container a{
+    font-size: 13px;
+    background-color: #e84545;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 45px;
+    color: #ffffff;
+    border-radius: 2px;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+}
