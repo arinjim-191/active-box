@@ -60,5 +60,8 @@ ul li {
     background-image: url(./top-background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    
+
+    height: 600px;
+    padding-top: 260px;
+    padding-bottom: 160px;
 }
