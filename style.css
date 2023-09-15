@@ -40,7 +40,7 @@ ul li {
 
 }
 .header-menu .menu li a {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 13px;
     font-weight: 700;
     color: aliceblue;
@@ -61,7 +61,7 @@ ul li {
     background-size: cover;
     background-repeat: no-repeat;
 
-    height: 600px;
+    height: 800px;
     padding-top: 260px;
     padding-bottom: 160px;
 }
@@ -70,4 +70,16 @@ ul li {
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     color: white;
+    line-height: 68px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner-section .container p{
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    
+    font-family: 'Raleway', sans-serif; 
+    text-align: center;
+
 }
