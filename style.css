@@ -118,11 +118,11 @@ ul li {
 .service-section .container{
     display: flex;
     flex-wrap: wrap;
-    row-gap: 68px
-    ;
+    row-gap: 68px;
+    column-gap: 5%;
 }
 .service-section .container .service-item{
-    max-width: 33.33%;
+    max-width: 30%;
 }
 .service-item{
     display: flex;
@@ -140,8 +140,9 @@ ul li {
 }
 .service-section .container .service-item p{
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
+    color: #989898;
     
 }
 
