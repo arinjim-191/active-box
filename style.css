@@ -26,14 +26,19 @@ ul li {
 
 .header-section{
     height: 100px;
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    width: 100%;
 
 }
 .header-section .container{
     height: 100%;
-    background-color: rgb(44, 54, 50);
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid rgba(255, 250, 240, 0.324);
 }
 .header-menu .menu {
    display: flex;
@@ -45,6 +50,7 @@ ul li {
     font-weight: 700;
     color: aliceblue;
     padding: 0 30px;
+    text-transform: uppercase;
 
 }
 .header-menu .menu li:last-child a{
@@ -86,6 +92,7 @@ ul li {
     margin-bottom: 80px;
     padding: 0 100px;
     
+    
 
 
 }
@@ -99,4 +106,5 @@ ul li {
    position: absolute;
    left: 50%;
    transform: translateX(-50%);
+   text-transform: uppercase;
 }
