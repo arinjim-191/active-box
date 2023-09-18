@@ -53,6 +53,7 @@ ul li {
     color: aliceblue;
     padding: 0 30px;
     text-transform: uppercase;
+    
 
 }
 .header-menu .menu li:last-child a{
@@ -112,6 +113,7 @@ ul li {
    left: 50%;
    transform: translateX(-50%);
    text-transform: uppercase;
+   
 }
 
 /* --button- */
@@ -169,8 +171,10 @@ ul li {
 }
 .gallery-section .gallery-item{
     max-width: calc(25% - 1px);
+    cursor: pointer;
     
 }
+
 
 .gallery-section .gallery-item img{
     width: 100%;
