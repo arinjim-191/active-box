@@ -30,11 +30,12 @@ ul li {
     top: 0 ;
     left: 0;
     width: 100%;
+    
 
 }
 .header-section .container{
     height: 100%;
-    
+    backdrop-filter: blur(12px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -147,8 +148,6 @@ ul li {
     color: #989898;
     
 }
-
-
     /* <!-- -------service-section-end --> */
 
     /* ---gallery section start----- */
