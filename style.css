@@ -166,13 +166,14 @@ ul li {
     flex-wrap: wrap;
     column-gap: 1px;
     row-gap: 1px;
+
     
 
 }
 .gallery-section .gallery-item{
     max-width: calc(25% - 1px);
     cursor: pointer;
-    
+    position: relative;
 }
 
 
@@ -180,6 +181,18 @@ ul li {
     width: 100%;
     height: 100%;
 }
+.overlay{
+    height: 100%;
+    width: 100%;
    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+
+}
+.gallery-section .gallery-item:hover .overlay{
+    background-color: #da4747;
+}
 
     /* ---gallery section end----- */
