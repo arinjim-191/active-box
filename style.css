@@ -30,12 +30,13 @@ ul li {
     top: 0 ;
     left: 0;
     width: 100%;
+    backdrop-filter: blur(12px);
     
 
 }
 .header-section .container{
     height: 100%;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(22px);
     display: flex;
     justify-content: space-between;
     align-items: center;
