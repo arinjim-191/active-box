@@ -9,7 +9,7 @@ font-family: 'Raleway', sans-serif; */
     box-sizing: border-box;
 }
 a{
-
+    
     text-decoration: none;
     display: inline-block;
 
@@ -31,9 +31,15 @@ ul li {
     left: 0;
     width: 100%;
     backdrop-filter: blur(12px);
-    
-
+    z-index: 100;
 }
+.header-menu .menu a:hover{
+    color: #e84545;
+    transition: 0.5s;
+      
+}
+
+
 .header-section .container{
     height: 100%;
     backdrop-filter: blur(22px);
@@ -198,7 +204,13 @@ ul li {
     /* ---gallery section end----- */
 
     /* infograh start */
-
+    .infograh-contain{
+        width: 50%;
+        height: 500px;
+    }
+    .infograh-contain img{
+        height: 500px;
+    }
     /* infograh end */
 
 
