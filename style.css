@@ -48,7 +48,7 @@ ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(255, 250, 240, 0.324);
+    border-bottom: 1px solid #9b9b9b;
 }
 .header-menu .menu {
    display: flex;
@@ -58,7 +58,7 @@ ul li {
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
     font-weight: 700;
-    color: aliceblue;
+    color: #9c9c9c;
     padding: 0 30px;
     text-transform: uppercase;
     
@@ -190,6 +190,7 @@ ul li {
     height: 100%;
 }
 .overlay{
+   
     height: 100%;
     width: 100%;
    
@@ -197,11 +198,16 @@ ul li {
     top: 0;
     left: 0;
     z-index: 5;
+    transition: 0.5s;
 
 }
+
+
+
 .gallery-section .gallery-item:hover .overlay{
     background-color: #da4747;
 }
+
 
     /* ---gallery section end----- */
 
